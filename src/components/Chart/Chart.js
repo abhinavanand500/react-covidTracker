@@ -10,16 +10,20 @@ const Chart = () => {
         }
         console.log(dailyData);
         fetchAPI();
-    }, [])
+    })
     const lineChart = (
         dailyData[0] ?
             (<Line
                 data={{
-                    labels: '',
+                    labels: dailyData(({ date }) => date),
                     datasets: [{}, {}],
                 }}
             />) : null
     );
+
+    return (
+        <h1>Hello</h1>
+    )
 }
 
 export default Chart;
