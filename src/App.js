@@ -5,6 +5,7 @@ import CountryPicker from './components/CountryPicker/CountryPicker';
 import { fetchData } from './api';
 import styles from './App.module.css'
 import logo from './images/logo.png'
+import Footer from './components/Footer';
 class App extends React.Component {
     state = {
         data: {},
@@ -24,13 +25,15 @@ class App extends React.Component {
     render() {
         const { data, country } = this.state;
         return (
-            <div className className={styles.container}>
-                <img className={styles.image} src={logo} alt='Covid 19' />
-                <Cards data={data} />
-                <CountryPicker handleCountryChange={this.handleCountryChange} />
-                <Chart data={data} country={country} />
-
-            </div>
+            <>
+                <div className className={styles.container}>
+                    <img className={styles.image} src={logo} alt='Covid 19' />
+                    <Cards data={data} />
+                    <CountryPicker handleCountryChange={this.handleCountryChange} />
+                    <Chart data={data} country={country} />
+                </div>
+                <Footer />
+            </>
         );
     }
 }
