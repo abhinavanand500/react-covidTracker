@@ -2,6 +2,7 @@ import axios from "axios";
 
 const url = "https://covid19.mathdro.id/api";
 
+// Global and country api
 export const fetchData = async country => {
     let changableUrl = url;
     if (country) {
@@ -29,6 +30,7 @@ export const fetchDailyData = async () => {
     } catch (error) {}
 };
 
+// Country Names  - {country picker}
 export const fetchCountries = async () => {
     try {
         const {
@@ -37,5 +39,3 @@ export const fetchCountries = async () => {
         return countries.map(country => country.name);
     } catch (error) {}
 };
-
-// State Work
