@@ -7,7 +7,7 @@
 
 ## Introduction
     
-An easy-to-navigate website which can be used to know about current cases of COVID-19 in present and also to know more about the COVID-19 pandemic and keep up-to-date with current happenings.**API problem fixed**
+An easy-to-navigate website which can be used to know about current cases of COVID-19 in present and also to know more about the COVID-19 pandemic and keep up-to-date with current happenings.
 
 
 
