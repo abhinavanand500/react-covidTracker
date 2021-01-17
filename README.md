@@ -1,4 +1,4 @@
-# COVID-19
+# COVID-19 (All Fixed)
 
 
 ### [Live Site](https://abhinavanand500.github.io/react-covidTracker/)
