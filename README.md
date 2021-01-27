@@ -1,4 +1,4 @@
-# COVID-19
+# COVID-19 Report App
 
 
 ### [Live Site](https://abhinavanand500.github.io/react-covidTracker/)
